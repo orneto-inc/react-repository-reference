@@ -1,0 +1,20 @@
+.navbar-section .container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-section .menu-item-list{
+    flex: .5;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.navbar-section .menu-item-list li{
+    list-style-type: none;
+    cursor: pointer;
+}
