@@ -1,0 +1,98 @@
+/* Fonts */
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+/* Common */
+*{
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+}
+
+
+.card-wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-self: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    padding: 8px 72px;
+    
+}
+
+.card-wrapper .card{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    border: none;
+    width: 19rem;
+    min-width: 19rem;
+    border-radius: 8px;
+    box-shadow: 2px 2px 2px 2px #d9d9d9; 
+    min-height: 380px;
+    margin: 16px auto;
+    padding: 12px 16px;
+    scale: 1;
+    cursor: pointer;
+    transition: .5s ease-in-out;
+}
+
+.card-wrapper .card:hover{
+    /* scale: 1.09; */
+}
+
+.card-wrapper .card img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: #f9f9f9;
+}
+
+.card-wrapper .card p{
+    padding: 0;
+    margin: 0;
+}
+
+.card-wrapper .card .id{
+    margin-top: 2rem;
+    font-size: 1rem;
+    color: #a9a9a9;
+
+}
+
+.card-wrapper .card .name{
+    margin-top: 4px;
+    font-size: 1.2rem;
+    color: #000;
+    font-weight: 600;
+}
+
+.card-wrapper .card .address{
+    margin-top: 4px;
+    font-size: 1rem;
+    color: #000;
+
+}
+
+.card-wrapper .card .gender{
+    margin-top: 8px;
+    font-size: 1rem;
+    color: #000;
+}
+
+.card-wrapper .card .phone{
+    margin-top: 8px;
+    font-size: 1rem;
+    color: #000;
+}
+
+.card-wrapper .card .email{
+    margin-bottom: 8px;
+    margin-top: 8px;
+    font-size: 1rem;
+    color: #000;
+}
